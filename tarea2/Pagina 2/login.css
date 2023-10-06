@@ -1,0 +1,59 @@
+body::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    filter: brightness(40%);
+    background-image: url('../background.avif');
+    background-size: cover;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+header {
+    background-color: #0063be;
+}
+
+.usuario {
+    width: 70%;
+}
+
+a {
+    font-weight: bold;
+    color: #0063be;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0063be;
+    text-decoration: underline;
+}
+
+input:checked {
+    background-color: #0063be !important;
+}
+
+input,
+select {
+    cursor: pointer;
+}
+
+.microinteraccion {
+    width: 60%;
+}
+
+.error {
+    border: red solid 1px;
+}
+
+#forgot-pass {
+    font-weight: bold;
+    text-align: end;
+    font-size: 12px;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cenfotec</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../favicon.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./login.css" type="text/css">
+  </head>
+  <body>
+    
+    <div class="d-flex flex-column justify-content-center align-items-center vh-100">
+        <!--microinteraccion -->
+        <div class="text-center">
+            <lottie-player src="https://lottie.host/53e08f78-1db6-4e16-8240-23e0f672edf6/cQYiAq5Tnx.json" autoplay loop class="container microinteraccion"></lottie-player>
+        </div>
+        <div class="text-center text-white" style="width: 40%;">
+            <div class="p-4 shadow-sm rounded">
+                <div class="mb-4">
+                    <label class="form-label" for="in-txt-user">Usuario</label>
+                    <input class="form-control text-center gray-placeholder" placeholder="Ingrese su usuario" id="in-txt-user" type="text" />
+                </div>
+                <div class="mb-5">
+                    <label class="form-label" for="in-txt-pass">Contraseña</label>
+                    <input class="form-control text-center gray-placeholder" placeholder="Ingrese su contraseña" id="in-txt-pass" type="password" />
+                </div>
+                <div class="text-center">
+                    <button class="btn p-2 btn-success" id="btn-login" type="button">Ingresar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8">
+
+            <!--microinteraccion dinamica-->
+             <div class="container anima pt-5 cursor"></div>
+         </div>
+    </div>
+
+    <script src="login.js"></script>
+
+    <!-- libreria SWEETALERTE-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- interactividad Lottie JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <!-- libreria Lottie JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

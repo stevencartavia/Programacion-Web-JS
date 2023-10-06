@@ -1,0 +1,13 @@
+body::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    filter: brightness(40%);
+    background-image: url('../background.avif');
+    background-size: cover;
+}
+
+p {
+    letter-spacing: 4px;
+}

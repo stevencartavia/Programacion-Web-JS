@@ -1,0 +1,25 @@
+.cover {
+    background-image: url('../tienda.avif');
+    background-size: cover;
+    height: 100vh;
+}
+
+.icon {
+    width: 80px;
+    padding-right: 13px;
+    color: white;
+}
+
+footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
