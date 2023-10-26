@@ -1,0 +1,47 @@
+label {
+    color: black;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+header {
+    background-color: #0063be;
+}
+
+.usuario {
+    width: 70%;
+}
+
+a {
+    font-size: 17px;
+    color: #0063be;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0063be;
+    text-decoration: underline;
+}
+
+input:checked {
+    background-color: #0063be !important;
+}
+
+input,
+select {
+    cursor: pointer;
+}
+
+.microinteraccion {
+    width: 50%;
+}
+
+.error {
+    border: red solid 1px;
+}

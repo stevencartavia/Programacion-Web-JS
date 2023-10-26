@@ -1,0 +1,32 @@
+body::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: url('./imgs/background.avif');
+    background-size: cover;
+}
+
+body {
+    margin-left: 40px;
+}
+
+.logo {
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}

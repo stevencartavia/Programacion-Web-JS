@@ -1,0 +1,16 @@
+input {
+    font-size: 20px;
+}
+
+input:hover {
+    border: 1px solid #5390b9;
+}
+
+label {
+    font-size: 17px;
+    width: 100px;
+}
+
+.container {
+    padding: 30px;
+}

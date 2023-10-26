@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(252, 253, 253);
+    height: 120px;
+    background: #000;
+}
+
+.img-logo {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.banner-el {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vehiculos {
+    margin-top: 40px;
+}
+
+.btncirculos {
+    padding: 15px;
+    border: none;
+    margin: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+footer {
+    color: white;
+    background: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+}

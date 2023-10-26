@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="favicon.png" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="reto3.css">
+    <title>Reto 3</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <a href="./reto3.html" class="cursor"><img src="./imgs/logo.png" class="logo img-fluid"></a>
+        </div>
+    </header>
+
+    <section class="mt-3">
+        <nav class="navbar navbar-expand-lg px-4 py-3">
+            <div class="container-fluid">
+            <a class="navbar-brand text-white" href="reto3.html">Cinema Us!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Salas y formatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="mt-4 px-4">
+        <h5 class="text-white px-2">Elegir cine:</h5>
+        <select id="cines" class="formato1 cursor mt-3 mx-1" onchange="cines()">
+            <option value="">Elige un cine</option>
+            <option value="A">Ciudad del Este</option>
+            <option value="B">Multiplaza Curridabat</option>
+            <option value="C">Multiplaza Escazu</option>
+        </select>
+    </section>
+
+    <footer class="text-center text-lg-start">
+        <div class="text-center p-3">
+        <p>© 2023 Copyright: Cinema Us!</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- libreria desplegables  js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="reto3.js"></script>
+</body>
+
+</html>

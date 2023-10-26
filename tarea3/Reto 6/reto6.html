@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="reto6.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-2">
+                    <div class="img">
+                        <img src="imagenes/logo.svg" alt="Logo de Mitsubushi" class="img-fluid img-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container mt-3">
+        <div class="row">
+            <div class="col-3">
+                <img src="./imagenes/banner.png" alt="banner" class="img-fluid">
+            </div>
+            <div class="col mt-3">
+                <h2 class="banner-el">Cotiza y mira tu proximo auto</h2>
+                <h4 class="banner-el">Mirage 4</h4>
+                <p class="banner-el">Atrevete a mas</p>
+            </div>
+        </div>
+    </section>
+
+    <hr> 
+
+    <section class="container mt-3 vehiculos">
+        <div class="row">
+            <h4>Paleta de color</h4>
+            <h6>Selecciona tu color preferido</h6>
+            <div class="col btns">
+                <button class="btncirculos" style="background-color: rgba(255, 255, 255, 0.738);" onclick="c1()"></button>
+                <button class="btncirculos" style="background-color: black;" onclick="c2()"></button>
+                <button class="btncirculos" style="background-color: red;" onclick="c3()"></button>
+                <button class="btncirculos" style="background-color: rgb(30, 110, 164);" onclick="c4()"></button>
+                <button class="btncirculos" style="background-color: gray;" onclick="c5()"></button>
+            </div>
+            <div class="col">
+                <img src="./imagenes/blanco.png" class="img-fluid w-50" id="vehiculo">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Derechos Reservados 
+    </footer>
+
+    <script src="reto6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>

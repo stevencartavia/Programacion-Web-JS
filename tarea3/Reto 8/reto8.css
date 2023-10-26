@@ -1,0 +1,9 @@
+body::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    filter: brightness(40%);
+    background-image: url('./bg.avif');
+    background-size: cover;
+}
